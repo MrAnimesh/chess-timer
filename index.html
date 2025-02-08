@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Timer</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body onload="resetimer()">
+    <div class="wrapper">
+        <div class="container">
+            <div class="setup-container">
+                <input class="setup" id="ip-time" placeholder="Enter Time"></input>
+                <button class="setup" id="btn-set-timer">Set</button>
+                <button class="setup" id="btn-pause-timer">Pause</button>
+                <button class="setup" id="btn-reset-timer">Reset</button>
+            </div>
+            <div class="player-name-container">
+
+            </div>
+            <div class="player-buttons-container">
+                <div class="players" >
+                    <h3 contenteditable="true" spellcheck="false">Player 1</h3>
+                    <button class="player-buttons white-player-btn">
+                        <h2 id="white-time">White</h2>
+                        <h2 id="white-move">Move</h2>
+                    </button>
+                </div>
+                <div class="players">
+                    <h3 contenteditable="true" spellcheck="false">Player 2</h3>
+                    <button class="player-buttons black-player-btn">
+                        <h2 id="black-time">White</h2>
+                        <h2 id="black-move">Move</h2>
+                    </button>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
